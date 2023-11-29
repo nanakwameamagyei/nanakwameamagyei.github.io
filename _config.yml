@@ -4,13 +4,16 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
+# No Cache added by Nana
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
 # Site Settings
 locale                   : "en-US"
 title                    : "Nana Kwame Amagyei"
 title_separator          : "-"
 name                     : &name "Nana"
-description              : &description "personal description"
+description              : &description ""
 url                      : https://nanakwameamagyei.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nanakwameamagyei/nanakwameamagyei.github.io"
